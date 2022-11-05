@@ -115,6 +115,8 @@ body {
   color: #eeeeee;
 }
 
+/*--- skills and text content of about me ---*/
+/*--- outer container ---*/
 .bioContent {
   flex: 1;
   flex-grow: 1;
@@ -141,9 +143,10 @@ body {
   font-family: var(--MonoFont);
   font-weight: normal;
   font-size: 25px;
-  margin: 10px 0 0 0;
+  color: var(--lightTeal);
 }
 
+/*--- individual sections ---*/
 #section1 {
   padding: 200px 0 0 0;
 }
