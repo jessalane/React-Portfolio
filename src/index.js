@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomePage from './home';
+import App from './app';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <HomePage />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render( <App />, document.getElementById('root')
 );
