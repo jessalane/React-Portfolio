@@ -1,0 +1,52 @@
+:root {
+    --redPurple: rgba(95, 8, 75, 1);
+    --darkPurple: rgba(71, 34, 85, 1);
+    --darkBlue: rgba(47, 60, 94, 1);
+    --darkTeal: rgba(23, 85, 103, 1);
+    --lightTeal: rgba(0, 111, 113, 1);
+    --smallCaps: 'Alegreya SC', serif;
+    --MonoFont: 'Syne Mono', monospace;
+    --SansFont: 'Advent Pro', sans-serif;
+  }
+
+  #contact {
+    height: 88vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+  }
+
+  #contact h1 {
+    font-family: var(--MonoFont);
+    font-weight: normal;
+    color: var(--darkTeal);
+    display: block;
+  }
+
+  .form {
+    padding: 20px;
+    text-align: center;
+  }
+  .form input {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+  }
+  .form textarea {
+    width: 400px;
+    min-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+  }
+
+  .form button {
+    width: 400px;
+    padding: 10px;
+    font-family: var(--MonoFont);
+    font-size: 20px;
+    margin: auto;
+  }
