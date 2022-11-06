@@ -42,16 +42,22 @@
     color: #eeeeee;
   }
   
-  #nav a {
+  #nav .inactive {
     color: #eeeeee;
     font-family: var(--MonoFont);
     padding: 0 20px;
   }
   
-  #nav a:hover {
+  #nav .inactive:hover {
     color: var(--lightTeal);
     text-shadow: 0 0 5px #000;
     transform: scale(1.1);
     outline: 1px solid transparent;
+  }
+
+  #nav .active {
+    color: #747474;
+    font-family: var(--MonoFont);
+    padding: 0 20px;
   }
   

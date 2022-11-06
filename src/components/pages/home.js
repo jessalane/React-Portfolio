@@ -1,9 +1,9 @@
 import '../../css/home.css';
 
 // importing different sections
-import BioIntro from './bioIntro';
-import Skills from './skills';
-import AboutMe from './aboutMe';
+import BioIntro from '../bioIntro';
+import Skills from '../skills';
+import AboutMe from '../aboutMe';
 
 function App() {
   return (

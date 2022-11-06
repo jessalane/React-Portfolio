@@ -1,7 +1,7 @@
 import React from "react";
-import '../../css/portfolio.css';
+import '../../css/projects.css';
 
-function Portfolio() {
+function Projects() {
     return (
         <div id="portfolio"> 
         {/* cocktail DB card starts */}
@@ -102,4 +102,4 @@ function Portfolio() {
     );
 }
 
-export default Portfolio;
+export default Projects;

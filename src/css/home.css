@@ -14,9 +14,30 @@ body {
   padding: 0;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--lightTeal);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--darkTeal);
+}
+
 /*--- root styling ---*/
 #root {
   background-image: url('../../public/images/geometric\ gray.avif');
+  background-size: cover;
 }
 
 /*--- footer styling ---*/
