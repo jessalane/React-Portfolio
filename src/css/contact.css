@@ -50,3 +50,75 @@
     font-size: 20px;
     margin: auto;
   }
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+  
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  #contact {
+    text-align: center;
+    height: max-content;
+    padding: 100px 0;
+  }
+  .form {
+    padding: 0;
+  }
+  .form input {
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+  .form textarea {
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+
+  .form button {
+    padding: 5px 0;
+  }
+}
+
+/* extra small devices */
+@media screen and (max-width: 400px) {
+  .form input {
+    width: 350px;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+  .form textarea {
+    width: 350px;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+
+  .form button {
+    width: 350px;
+    padding: 5px 0;
+  }
+}
+
+/* why does anyone need a phone this small? is it the year 2000??? */
+@media screen and (max-width: 280px) {
+  .form input {
+    width: 250px;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+  .form textarea {
+    width: 250px;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+
+  .form button {
+    width: 250px;
+    padding: 5px 0;
+  }
+}
