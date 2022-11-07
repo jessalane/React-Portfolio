@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.c20ab009.css",
+    "main.js": "/React-Portfolio/static/js/main.018b5eef.js",
+    "static/media/self.jpg": "/React-Portfolio/static/media/self.ff2594ef7fe07578d6e5.jpg",
+    "static/media/geometric gray.avif": "/React-Portfolio/static/media/geometric gray.94923d2dab2e005a200f.avif",
+    "index.html": "/React-Portfolio/index.html",
+    "main.c20ab009.css.map": "/React-Portfolio/static/css/main.c20ab009.css.map",
+    "main.018b5eef.js.map": "/React-Portfolio/static/js/main.018b5eef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c20ab009.css",
+    "static/js/main.018b5eef.js"
+  ]
+}
