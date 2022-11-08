@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c20ab009.css",
-    "main.js": "/React-Portfolio/static/js/main.018b5eef.js",
+    "main.js": "/React-Portfolio/static/js/main.dc941ed2.js",
+    "static/media/cocktail.png": "/React-Portfolio/static/media/cocktail.5a8816246fc75f55a018.png",
+    "static/media/unplayable.png": "/React-Portfolio/static/media/unplayable.5b6f5f28eedfb11f254e.png",
     "static/media/self.jpg": "/React-Portfolio/static/media/self.ff2594ef7fe07578d6e5.jpg",
+    "static/media/team page.png": "/React-Portfolio/static/media/team page.cf115636b686ad8cc5d4.png",
+    "static/media/weather dash.png": "/React-Portfolio/static/media/weather dash.5c5b83ad39583142adc8.png",
     "static/media/geometric gray.avif": "/React-Portfolio/static/media/geometric gray.94923d2dab2e005a200f.avif",
+    "static/media/JATE.png": "/React-Portfolio/static/media/JATE.6639b722a5a11c19c7b8.png",
+    "static/media/mongo.avif": "/React-Portfolio/static/media/mongo.9c6cea0d1d8de0fb7612.avif",
     "index.html": "/React-Portfolio/index.html",
     "main.c20ab009.css.map": "/React-Portfolio/static/css/main.c20ab009.css.map",
-    "main.018b5eef.js.map": "/React-Portfolio/static/js/main.018b5eef.js.map"
+    "main.dc941ed2.js.map": "/React-Portfolio/static/js/main.dc941ed2.js.map"
   },
   "entrypoints": [
     "static/css/main.c20ab009.css",
-    "static/js/main.018b5eef.js"
+    "static/js/main.dc941ed2.js"
   ]
 }
