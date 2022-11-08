@@ -35,7 +35,7 @@
       rgba(63,63,63, 0.7),
       rgba(63,63,63, 0.7)
     ), 
-    url('../../public/images/self.jpg');
+    url('../images/self.jpg');
     background-size: cover;
   }
   
