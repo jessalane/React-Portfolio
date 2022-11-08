@@ -36,6 +36,6 @@ body {
 
 /*--- root styling ---*/
 #root {
-  background-image: url('../../public/images/geometric\ gray.avif');
+  background-image: url('../images/geometric\ gray.avif');
   background-size: cover;
 }
