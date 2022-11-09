@@ -24,6 +24,7 @@
   ![screenshot](./src/images/projectsScreenshot.png)
   ![screenshot](./src/images/resumeScreenshot.png)
   ![screenshot](./src/images/contactScreenshot.png)
+  [deployed site](https://jessalane.github.io/React-Portfolio/#home)
 
   ## License
   
