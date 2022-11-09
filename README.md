@@ -7,8 +7,8 @@
 
 
   ## Description
-  The following page is a portfolio based on my own body of work. The code is generated with React, custom CSS, and is fully mobile reactive. All of the project information is added into an object that makes for ease of updating the content, and could be moved into a databse when my body of work has grown some.
-
+  The following page is a portfolio based on my own body of work. The code is generated with React, custom CSS, JavaScript and is fully mobile reactive. All of the project information is added into an object that makes for ease of updating the content, and could be moved into a databse when my body of work has grown some.
+  
   ## Table of Contents
   [Installation](#installation)
 
