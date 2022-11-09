@@ -11,6 +11,7 @@
 
   #contact {
     height: 88vh;
+    padding-top: 50px;
     display: flex;
     flex-flow: column;
     justify-content: center;
