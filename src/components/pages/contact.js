@@ -4,7 +4,7 @@ import { validateEmail } from '../../helpers/helpers.js';
 
 function Contact() {
     const [email, setEmail] = useState('');
-    const [userName, setUserName] = useState('');
+    const [name, setName] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
@@ -16,45 +16,56 @@ function Contact() {
 
         if (inputType === 'email') {
             setEmail(inputValue);
-        } else if (inputType === 'userName') {
-            setUserName(inputValue);
+        } else if (inputType === 'name') {
+            setName(inputValue);
         }
     };
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
-        if (!validateEmail(email) || !userName) {
-            setErrorMessage('Email or username is invalid');
+        if (!validateEmail(email) || !name) {
+            setErrorMessage('Email or name is invalid');
             return;
         }
 
-        setUserName('');
+        setName('');
         setEmail('');
     };
 
     return ( 
     <div id="contact">
     <h1>contact me via email below</h1>
-    <form class="form">
+    <form 
+        class="form"
+        action="https://formsubmit.co/jessica.lane.a@gmail.com"
+        method="POST">
+        <input
+            type="hidden"
+            name="subject"
+            value="email from portfolio"
+        />
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          required
         />
         <input
-          value={userName}
-          name="userName"
+          value={name}
+          name="name"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
+          placeholder="name"
+          required
         />
         <textarea
             id="message" 
             name="message"
             placeholder="this form will not send an email, please use the link at the bottom of the page"
+            required
         />
         <button 
         type="button" 
