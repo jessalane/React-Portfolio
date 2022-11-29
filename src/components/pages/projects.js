@@ -6,6 +6,7 @@ import weatherDash from '../../images/weather dash.png';
 import teamGen from '../../images/team page.png';
 import jate from '../../images/JATE.png';
 import mongo from '../../images/mongo.avif';
+import vote from '../../images/voteHome.png';
 
 
 const projects = [
@@ -23,6 +24,13 @@ const projects = [
         gitLink: "https://github.com/nvmax/Project2-Threat-Level-Midnight",
         projectType: "Group Homework Project",
         about: "On this project I primarily worked with the front end which was created with Handlebars. I designed the index, as well as the profile and modal. I created the logic behind the toggle feature, and the modal, and wrote out the logic behind the login, register, and log out forms. In this project we imported two API's to return the data available, and managed our data through the use of Express and Node."
+    }, {
+        title: "Vote App",
+        image: vote,
+        liveLink: "https://desolate-savannah-26721.herokuapp.com/",
+        gitLink: "https://github.com/jessalane/Project-3-Vote-App",
+        projectType: "Group Homework Project",
+        about: "With this project I worked as team lead again. I organized the file structure before we began working, and created a spreadsheet to track what needed to be completed for the grade, and listed other tasks we hoped to get done in order of necessity. I wrote out all of our custom CSS, assured it was mobile responsive, and got the React end functioning. I also set up the Mongo Database, and helped the other team members where I could."
     }, {
         title: "Weather Dashboard",
         image: weatherDash,

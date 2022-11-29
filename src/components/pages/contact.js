@@ -37,9 +37,11 @@ function Contact() {
     <div id="contact">
     <h1>contact me via email below</h1>
     <form 
-        class="form"
+        target="_blank" 
         action="https://formsubmit.co/jessica.lane.a@gmail.com"
-        method="POST">
+        method="POST"
+        class="form"
+    >
         <input
             type="hidden"
             name="subject"
@@ -68,7 +70,7 @@ function Contact() {
             required
         />
         <button 
-        type="button" 
+        type="submit" 
         onClick={handleFormSubmit}
         >
             Submit
