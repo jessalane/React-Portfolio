@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.f082e438.css",
-    "main.js": "/static/js/main.645752e8.js",
+    "main.js": "/static/js/main.b16b1ae1.js",
     "static/media/cocktail.png": "/static/media/cocktail.5a8816246fc75f55a018.png",
     "static/media/unplayable.png": "/static/media/unplayable.5b6f5f28eedfb11f254e.png",
     "static/media/team page.png": "/static/media/team page.cf115636b686ad8cc5d4.png",
     "static/media/filler.avif": "/static/media/filler.c41b137c3ffed3dcdd50.avif",
     "static/media/weather dash.png": "/static/media/weather dash.5c5b83ad39583142adc8.png",
+    "static/media/voteHome.png": "/static/media/voteHome.272c818e5f5927666ab2.png",
     "static/media/geometric gray.avif": "/static/media/geometric gray.94923d2dab2e005a200f.avif",
     "static/media/JATE.png": "/static/media/JATE.6639b722a5a11c19c7b8.png",
     "static/media/mongo.avif": "/static/media/mongo.9c6cea0d1d8de0fb7612.avif",
     "index.html": "/index.html",
     "main.f082e438.css.map": "/static/css/main.f082e438.css.map",
-    "main.645752e8.js.map": "/static/js/main.645752e8.js.map"
+    "main.b16b1ae1.js.map": "/static/js/main.b16b1ae1.js.map"
   },
   "entrypoints": [
     "static/css/main.f082e438.css",
-    "static/js/main.645752e8.js"
+    "static/js/main.b16b1ae1.js"
   ]
 }
