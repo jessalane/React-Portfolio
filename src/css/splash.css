@@ -1,0 +1,51 @@
+:root {
+    --redPurple: rgba(95, 8, 75, 1);
+    --darkPurple: rgba(71, 34, 85, 1);
+    --darkBlue: rgba(47, 60, 94, 1);
+    --darkTeal: rgba(23, 85, 103, 1);
+    --lightTeal: rgba(0, 111, 113, 1);
+    --smallCaps: 'Alegreya SC', serif;
+    --MonoFont: 'Syne Mono', monospace;
+    --SansFont: 'Advent Pro', sans-serif;
+  }
+
+  #splashPage {
+    background-image: linear-gradient(
+      rgba(63,63,63, 0.7),
+      rgba(63,63,63, 0.7)
+    ), 
+    url('../images/desk.jpg');
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .splashBox {
+    text-align: center;
+  }
+
+  #splashPage h1 {
+    color: #D2D2D2;
+    text-shadow: 0 0 10px var(--lightTeal);
+    font-family: var(--SansFont);
+    font-weight: normal;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    line-height: 80%;
+  }
+  #splashPage h2 {
+    color: #D2D2D2;
+    text-shadow: 0 0 10px var(--darkTeal);
+    font-family: var(--smallCaps);
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }

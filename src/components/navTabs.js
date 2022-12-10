@@ -22,29 +22,20 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li>
         <a
+          href="#biogtraphy"
+          onClick={() => handlePageChange('AboutMe')}
+          className={currentPage === 'AboutMe' ? 'active' : 'inactive'}
+        >
+          About Me
+        </a>
+      </li>
+      <li>
+        <a
           href="#projects"
           onClick={() => handlePageChange('Projects')}
           className={currentPage === 'Projects' ? 'active' : 'inactive'}
         >
-          Portfolio
-        </a>
-      </li>
-      <li>
-        <a
-          href="#Resume"
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'active' : 'inactive'}
-        >
-          Resume
-        </a>
-      </li>
-      <li>
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'active' : 'inactive'}
-        >
-          Contact
+          Projects
         </a>
       </li>
     </ul>

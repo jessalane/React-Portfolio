@@ -1,41 +1,41 @@
 :root {
-  --redPurple: rgba(95, 8, 75, 1);
-  --darkPurple: rgba(71, 34, 85, 1);
-  --darkBlue: rgba(47, 60, 94, 1);
-  --darkTeal: rgba(23, 85, 103, 1);
-  --lightTeal: rgba(0, 111, 113, 1);
-  --smallCaps: 'Alegreya SC', serif;
-  --MonoFont: 'Syne Mono', monospace;
-  --SansFont: 'Advent Pro', sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 7px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--lightTeal);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--darkTeal);
-}
-
-/*--- root styling ---*/
-#root {
-  background-image: url('../images/geometric\ gray.avif');
-  background-size: cover;
-}
+    --redPurple: rgba(95, 8, 75, 1);
+    --darkPurple: rgba(71, 34, 85, 1);
+    --darkBlue: rgba(47, 60, 94, 1);
+    --darkTeal: rgba(23, 85, 103, 1);
+    --lightTeal: rgba(0, 111, 113, 1);
+    --smallCaps: 'Alegreya SC', serif;
+    --MonoFont: 'Syne Mono', monospace;
+    --SansFont: 'Advent Pro', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--lightTeal);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--darkTeal);
+  }
+  
+  /*--- root styling ---*/
+  #root {
+    background-image: url('../images/geometric\ gray.avif');
+    background-size: cover;
+  }
